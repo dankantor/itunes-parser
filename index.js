@@ -26,10 +26,10 @@ module.exports.parse = function(xml, map) {
                     else{
                         song[innerHTML] = nextSiblingInnerHTML;
                     }
-                }.bind(this)
+                }
             );
             songs.push(song);
-        }.bind(this)
+        }
     );
     return songs;
 }
