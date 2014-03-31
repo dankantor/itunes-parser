@@ -13,7 +13,7 @@ Parse iTunes Music Library.xml into Array of objects
     var itunesParser = require('itunes-parser');
     var songs = itunesParser.parse(xml);
     
-    or to include and map to different properties:
+Or to include and map to different properties:
     
     var songs = itunesParser.parse(
             xml,
