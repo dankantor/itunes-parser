@@ -1,0 +1,18 @@
+{
+  "author": "Dan Kantor <dan@ex.fm>",
+  "name": "itunes-parser",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dankantor/itunes-parser",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dankantor/itunes-parser.git"
+  },
+  "dependencies": {
+      "underscore": "1.6.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
